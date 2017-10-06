@@ -1,0 +1,1097 @@
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  margin-top: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  background-image: url('../images/smango-house-resort-cambodia_5.jpg');
+  background-position: 50% 50%;
+  background-size: 1408px;
+}
+
+.hero-text {
+  display: block;
+  width: 100%;
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  text-align: center;
+}
+
+.lead {
+  font-family: Cardo, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.hr {
+  display: block;
+  width: 70px;
+  height: 2px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #fff;
+}
+
+.hr.hr-orange {
+  width: 70px;
+  height: 2px;
+  background-color: #f77233;
+}
+
+.hr.hr-orange.align-left {
+  width: 80px;
+  height: 2px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.hr.hr-footer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  float: left;
+  text-align: left;
+}
+
+.heading {
+  display: block;
+  width: auto;
+  margin-bottom: 20px;
+  font-family: Cardo, sans-serif;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.para {
+  width: 100%;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  font-family: Chivo, sans-serif;
+  color: #fff;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.para.grey {
+  width: 85%;
+  color: #444;
+  text-align: left;
+}
+
+.para.para-footer {
+  text-transform: uppercase;
+}
+
+.lead-white {
+  display: block;
+  width: 65%;
+  margin: 20px auto;
+  font-family: Chivo, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.content-block {
+  display: block;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.hero-section {
+  height: 100vh;
+  margin: 15px;
+  padding-right: 150px;
+  padding-left: 150px;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/smango-house-resort-cambodia_17.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/smango-house-resort-cambodia_17.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.hero-section.hero-bar {
+  background-image: url('../images/smango-house-resort-cambodia_10.jpg');
+}
+
+.hero-section.location-hero {
+  margin-bottom: 15px;
+  background-image: url('../images/smango-house-resort-cambodia_11.jpg');
+}
+
+.hero-section.hero-section-pool {
+  background-image: url('../images/smango-house-resort-cambodia_9.jpg');
+}
+
+.hero-section.hero-kids {
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/smango-house-resort-cambodia_14.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/smango-house-resort-cambodia_14.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.hero-section.accommodation-hero {
+  background-image: url('../images/smango-house-resort-cambodia_16.jpg');
+}
+
+.hero-section.contact-us-hero {
+  background-image: url('../images/smango-house-resort-cambodia-contact.jpg');
+}
+
+.hero-section.gallery-hero {
+  background-image: url('../images/smango-house-resort-cambodia-gallery_1.jpg');
+  background-size: cover;
+}
+
+.link-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 115px;
+  height: 115px;
+  margin-right: 40px;
+  margin-left: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.nav-right {
+  color: #fff;
+  text-align: center;
+}
+
+.nav-link {
+  margin-right: 15px;
+  margin-left: 20px;
+  font-family: Chivo, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.ad-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  margin: 15px;
+  padding-right: 150px;
+  padding-left: 150px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/smango-house-resort-cambodia_8.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.h2 {
+  margin-bottom: 20px;
+  font-family: Cardo, sans-serif;
+  color: #fff;
+  font-size: 36px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.ad-para {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Chivo, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button {
+  display: block;
+  width: 150px;
+  height: 55px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 18px;
+  float: left;
+  border: 1px none #f77233;
+  border-radius: 5px;
+  background-color: #f77233;
+  font-family: Chivo, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.button.btn-orange-outline {
+  border-style: solid;
+  background-color: transparent;
+  -webkit-transition: background-color 500ms ease, color 500ms ease;
+  transition: background-color 500ms ease, color 500ms ease;
+  color: #f77233;
+}
+
+.button.btn-orange-outline:hover {
+  background-color: #f77233;
+  color: #fff;
+}
+
+.button.btn-white-outline {
+  margin-top: 25px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: transparent;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+}
+
+.button.btn-white-outline:hover {
+  border-style: solid;
+  border-color: #f77233;
+  background-color: #f77233;
+}
+
+.button.button-submit {
+  padding-top: 15px;
+}
+
+.div-block-2 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.ad-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.div-block-3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.welcome-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70vh;
+  margin: 15px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.heading-block {
+  margin-top: 35px;
+}
+
+.h3 {
+  font-family: Cardo, sans-serif;
+  color: #444;
+  font-size: 27px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.h3.align-left {
+  width: auto;
+  text-align: left;
+}
+
+.h3.h3-white {
+  color: #fff;
+}
+
+.lead-grey {
+  display: block;
+  width: 60%;
+  margin: 15px auto;
+  font-family: Chivo, sans-serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+.lead-grey.lead-inverse {
+  overflow: visible;
+  color: #fff;
+}
+
+.welcome-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  padding: 30px 150px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-linear-gradient(270deg, rgba(247, 114, 51, .6), rgba(247, 114, 51, .6));
+  background-image: linear-gradient(180deg, rgba(247, 114, 51, .6), rgba(247, 114, 51, .6));
+}
+
+.text-col {
+  margin-right: 50px;
+}
+
+.text-span {
+  font-family: Cardo, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.gallery-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-right: 150px;
+  padding-left: 150px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.photo-col {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 15px;
+  margin-left: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.gallery-image {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  text-align: left;
+}
+
+.photos-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 15px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.div-block-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.div-block-5 {
+  width: 25%;
+  height: 50vh;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.div-block-6 {
+  width: 25%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.div-block-7 {
+  width: 25%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.rooms-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.room-col-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60vh;
+  padding-top: auto;
+  padding-bottom: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-image: url('../images/smango-house-resort-cambodia_6.jpg');
+  background-position: 50% 50%;
+  background-size: 481px;
+}
+
+.room-col-ctr {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-image: url('../images/smango-house-resort-cambodia_4.jpg');
+  background-position: 50% 50%;
+  background-size: 481px;
+}
+
+.room-col-right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background-image: url('../images/smango-house-resort-cambodia_3.jpg');
+  background-position: 0px 0px;
+  background-size: 480px;
+}
+
+.h4 {
+  font-family: Cardo, sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.location-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 85vh;
+  padding-right: 0px;
+  padding-left: 150px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.location-section.location-section-reverse {
+  padding-right: 110px;
+  padding-left: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.div-block-8 {
+  width: 40%;
+}
+
+.div-block-9 {
+  width: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.location-text-wrapper {
+  display: block;
+  width: auto;
+  margin-left: 0px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: left;
+}
+
+.content-page-image {
+  width: 55%;
+  height: 85%;
+  margin-right: 0px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.content-page-image.content-page-image-reverse {
+  margin-right: 150px;
+}
+
+.image-wrapper {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.div-block-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 150px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contact-form-wrapper {
+  display: block;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.form-block {
+  width: 100%;
+}
+
+.text-field {
+  float: right;
+}
+
+.email-field {
+  width: 100%;
+  height: 50px;
+  margin-left: 0px;
+  float: none;
+  border: 1px solid #f77233;
+}
+
+.text-field-2 {
+  width: 50%;
+  margin-right: 0px;
+  float: left;
+}
+
+.form {
+  width: auto;
+}
+
+.submit-button {
+  float: left;
+}
+
+.name-filed {
+  width: 50%;
+  float: left;
+}
+
+.field-label {
+  float: right;
+}
+
+.text-field-3 {
+  width: 45%;
+  height: 50px;
+  margin-left: 0px;
+  float: left;
+  border: 1px solid #f77233;
+}
+
+.text-field-4 {
+  width: 45%;
+  height: 50px;
+  margin-right: 50px;
+  margin-left: 0px;
+  float: left;
+  border: 1px solid #f77233;
+}
+
+.field-label-2 {
+  width: 50%;
+  float: left;
+}
+
+.submit-button-2 {
+  float: left;
+}
+
+.form-2 {
+  width: 500px;
+}
+
+.email-label {
+  float: none;
+}
+
+.contact-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 15px 150px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.content-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.contact-image-wrapper {
+  display: block;
+  width: 100%;
+  margin-left: 60px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+}
+
+.image-3 {
+  margin-top: 62px;
+}
+
+.image-4 {
+  margin-top: auto;
+}
+
+.textarea {
+  border: 1px solid #f77233;
+}
+
+.div-block-11 {
+  height: 40vh;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60vh;
+  margin-top: 30px;
+  padding-top: 70px;
+  padding-right: 65px;
+  padding-left: 65px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/smango-house-resort-cambodia_17.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/smango-house-resort-cambodia_17.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.div-block-12 {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.footer-col {
+  display: block;
+  margin-right: 40px;
+  margin-left: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.h5 {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  font-family: Cardo, sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.footer-links {
+  margin-top: 15px;
+  font-family: Chivo, sans-serif;
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.unordered-list {
+  margin-top: 35px;
+  padding-left: 0px;
+}
+
+.large-content-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dropdown-toggle {
+  padding: 0px;
+}
+
+.icon {
+  margin-right: 0px;
+  margin-left: 0px;
+  color: #fff;
+}
+
+.dropdown-list {
+  background-color: hsla(0, 0%, 100%, .3);
+}
+
+.dropdown-link {
+  width: 250px;
+  padding-top: 15px;
+  font-family: Chivo, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.dropdown-link.w--current {
+  color: #f77233;
+}
+
+.map {
+  display: block;
+  width: 55%;
+  height: 85%;
+  max-width: 100%;
+}
+
+.rooms-lead {
+  display: block;
+  width: 80%;
+  margin-top: 10px;
+  font-family: Chivo, sans-serif;
+  color: #fff;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.rooms-lead-2 {
+  width: 70%;
+  font-family: Chivo, sans-serif;
+  color: #fff;
+  line-height: 24px;
+  font-weight: 300;
+}
+
+.div-block-13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50vh;
+  margin-right: 15px;
+  margin-left: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-linear-gradient(270deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/s-mango-house-resort-cambodia.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/s-mango-house-resort-cambodia.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.div-block-14 {
+  width: 10%;
+  height: 2px;
+  background-image: -webkit-linear-gradient(270deg, #fff, #fff);
+  background-image: linear-gradient(180deg, #fff, #fff);
+}
+
+.text-span-2 {
+  font-size: 10px;
+}
+
+@media (max-width: 991px) {
+  .unordered-list {
+    margin-top: 0px;
+  }
+}
+
